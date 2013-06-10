@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app='myapp'>
+<head>
+<meta charset="ISO-8859-1">
+<title>welcome..!</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css"  />
+  <style type="text/css">
+  	h1{color: green;text-align: center;font-weight: bold;} 
+  	h3{color: green;text-align: center;}
+  	h2{color: green;}
+  </style>
+ 
+  
+  </head>
+<body>
+	 
+	<div>
+    <ul class="menu">
+     
+      
+      
+       <li><a href="home">Home</a></li>
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+       <li><a href="add">Add details</a> </li>
+     
+     
+    </ul>
+  </div>
+  <div ng-view></div>
+  <script src="/js/lib/angular/angular.js"></script>
+  <script src="/js/appModule.js"></script>
+  <script src="/js/controllers.js"></script>
+
+</body>
+</html>
